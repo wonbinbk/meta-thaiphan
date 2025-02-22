@@ -1,0 +1,11 @@
+[Unit]
+Description=Mp4 Frame Saver service
+After=local-fs.target
+
+[Service]
+ExecStart=/usr/bin/mp4FrameSaver "${HOME}/ResizedFrames"
+Restart=always
+User=root
+
+[Install]
+WantedBy=multi-user.target
