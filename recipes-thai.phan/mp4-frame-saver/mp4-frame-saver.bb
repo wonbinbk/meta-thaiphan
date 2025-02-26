@@ -8,7 +8,7 @@ SRC_URI = "gitsm://github.com/wonbinbk/Mp4FrameSaver.git;protocol=https;branch=m
            file://big_buck_bunny.mp4 \
 "
 
-SRCREV = "f96c78399aee86441fb918533452475f09166a27"
+SRCREV = "3db040e9c4f639893773bf5b33856fca85989fdb"
 
 S = "${WORKDIR}/git"
 
